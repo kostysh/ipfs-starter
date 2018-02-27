@@ -5,7 +5,7 @@ The ease way to start local IPFS server with Docker
 ```sh
 npm start
 ```
-- IPFS host will be started and listen to connections on ports `4001`  and `5001`.  
+- IPFS host will be started and listen to connections on ports `4001`  and `5001`  
 - Web browser will be accessible via `http://localhost:9090/ipfs/<object_hash>`
 - Local IPFS database will be mapped to the folder `/.ipfs` 
 - Transit folder for files `/.ipfs-export`
@@ -16,7 +16,7 @@ npm run exec -- <args...>
 ```
 For example: connect to peers  
 ```sh
-npm run exec -- connect to peers
+npm run exec -- swarm peers
 ```
 ## Add files
 ```sh
